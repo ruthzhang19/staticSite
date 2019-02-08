@@ -1,4 +1,5 @@
 // 使用 require 指令来载入nodejs的 http 模块，并将实例化的 HTTP 赋值给变量 http
+// 
 const http = require("http");
 
 // 使用 http.createServer() 方法创建服务器，并使用 listen 方法绑定 8888 端口，函数通过 request, response 参数来接收和响应数据
